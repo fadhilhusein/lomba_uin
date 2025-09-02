@@ -2478,14 +2478,7 @@ textarea.form-control-lg {
   filter: none;
   opacity: 0.65;
 }
-  /* tambahan css dari daffa */
-.rounded-pill-search {
-  border-radius: 75px; /* Sesuaikan nilai ini */
-}
-.purple-text {
-    color: #6a0dad; /* Ganti dengan kode warna ungu yang Anda inginkan */
-}
-/* tambahan csss dari daffa */
+
 .form-range {
   width: 100%;
   height: 1.5rem;
