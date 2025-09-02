@@ -932,3 +932,19 @@
 </body>
 
 </html>
+=======
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+
+        <script>
+            fetch("http://localhost:5000/")
+            .then(res => res.text())
+            .then(data => console.log(data))
+
+            fetch("http://localhost:5000/api/project")
+            .then(res => res.text())
+            .then(data => console.log(data))
+        </script>
+    </body>
+</html>
+>>>>>>> Stashed changes
